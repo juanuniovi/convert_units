@@ -18,3 +18,19 @@ if __name__ == "__main__":
         print(f"{km} km son {km_a_metros(km)} metros")
     else:
         print("Opción no válida")
+
+# quiero que saque por pantalla el valor en ambas unidades:
+    if opcion == "1":
+        m = float(input("Introduce metros: "))
+        km = metros_a_km(m)
+        print(f"{m} metros son {km} km")
+        print(f"{km} km son {km_a_metros(km)} metros")
+    elif opcion == "2":
+        km = float(input("Introduce km: "))
+        m = km_a_metros(km)
+        print(f"{km} km son {m} metros")
+        print(f"{m} metros son {metros_a_km(m)} km")    
+
+
+
+
